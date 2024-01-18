@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <head>
+        <link href="static/styles.css" rel="stylesheet">
+    </head>
+    <form action="/" method="post">
+        <h1><span>Choose a President</h1></span>
+        <select name="president" id="president">
+            <option value="washington.html">George Washington</option>
+            <option value="jefferson.html">Thomas Jefferson</option>
+            <option value="jackson.html">Andrew Jackson</option>
+            <option value="polk.html">James K. Polk</option>
+            <option value="lincoln.html">Abraham Lincoln</option>
+            <option value="teddy.html">Theodore Roosevelt</option>
+            <option value="wilson.html">Woodrow Wilson</option>
+            <option value="fdr.html">Franklin Delano Roosevelt</option>
+            <option value="truman.html">Harry S. Truman</option>
+            <option value="eisenhower.html">Dwight D. Eisenhower</option>
+        </select>
+        <button class="but" type="submit">GO</button>
+    </form>
+{% endblock %}

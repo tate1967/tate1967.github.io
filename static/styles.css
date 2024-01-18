@@ -1,0 +1,49 @@
+body {
+    background-image: url("flagimage.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    text-align: center;
+    color: #0000CD;
+}
+
+.header {
+    font-family: Times;
+    font-size: 75px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 10px inset red;
+    display: inline-block;
+    color: white;
+    background-color: blue;
+}
+.button {
+    color: white;
+    background-color:blue;
+    cursor: pointer;
+}
+.but {
+    cursor: pointer;
+}
+h2 span {
+    color: white;
+    border: 5px double red;
+    display: inline-block;
+    background-color: blue;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+h1 span {
+    color: white;
+    border: 5px outset red;
+    display: inline-block;
+    background-color: blue;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.lincoln {
+    text-align: center;
+}

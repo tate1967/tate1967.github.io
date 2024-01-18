@@ -1,0 +1,156 @@
+body {
+    text-align: center;
+    font-family: Times;
+}
+
+.lincoln {
+    background-image: url("abe_lincoln.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: white;
+}
+.fdr {
+    background-image: url("fdr1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: white;
+}
+.washington {
+    background-image: url("george1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: white;
+}
+.jefferson {
+    background-image: url("jefferson1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: white;
+}
+.jackson {
+    background-image: url("jackson1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: white;
+}
+.teddy {
+    background-image: url("teddy1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: white;
+}
+.truman {
+    background-image: url("truman1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: white;
+}
+.wilson {
+    background-image: url("wilson1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: white;
+}
+.polk {
+    background-image: url("polk1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: white;
+}
+.eisenhower {
+    background-image: url("eisenhower1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: white;
+}
+.button {
+    background-color: red;
+    position: absolute;
+    bottom: 20px;
+    font-family: Times;
+    cursor: pointer;
+}
+.button2 {
+    background-color: red;
+    position: absolute;
+    bottom: 20px;
+    left: 45%;
+    font-family: Times;
+    cursor: pointer;
+}
+.button3 {
+    background-color: red;
+    position: absolute;
+    bottom: 20px;
+    left: 54%;
+    font-family: Times;
+    cursor: pointer;
+}
+span {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 10px outset red;
+    display: inline-block;
+
+}
+
+h1 span {
+    background-color: blue;
+}
+h2 span {
+    color: white;
+    border: 5px inset red;
+    display: inline-block;
+    background-color: blue
+}
+h3 span {
+    color: blue;
+    border: 5px solid red;
+    display: inline-block;
+    background-color: #F0F8FF;
+}
+
+.paragraph {
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 200px;
+    text-align: justify;
+
+}
+
+#border1 {
+    position: fixed;
+    left: 50px;
+    top: 30%;
+    border: 10px double blue;
+
+}
+
+#border2 {
+    position: fixed;
+    right: 70px;
+    top: 30%;
+    border: 10px double white;
+}
