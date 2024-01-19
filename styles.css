@@ -1,0 +1,80 @@
+body{
+    background-image: url("autumn.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    text-align: center;
+    color: #000080;
+
+}
+
+.header {
+    font-family: Times;
+    font-size: 75px;
+}
+
+.button {
+    border: none;
+    padding: 15px 42px;
+    border-radius: 15px;
+    color: blue;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 10px;
+    cursor: pointer;
+
+  }
+
+.button1 {
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    background-color: #E6E6FA;
+}
+
+.button2 {
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    background-color: #ADD8E6;
+}
+
+.button3 {
+    position: absolute;
+    left: 55%;
+    top: 25%;
+    background-color: #00CED1;
+}
+
+.button4 {
+    position: absolute;
+    left: 80%;
+    top: 50%;
+    background-color: #DEB887;
+}
+
+#family{
+    position: absolute;
+    left: 25%;
+    top: 60%;
+}
+
+#activity{
+    position: absolute;
+    left: 6%;
+    top: 35%;
+}
+
+#vacation {
+    position: absolute;
+    left:53%;
+    top: 35%;
+}
+
+#pyramids {
+    position:absolute;
+    left: 78%;
+    top: 60%;
+}
